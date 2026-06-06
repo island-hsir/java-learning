@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": [
+        "CourseSystem/src"
+    ],
+    "java.project.referencedLibraries": [
+        "CourseSystem/lib/ojdbc11.jar"
+    ],
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:/Program Files/Java/jdk-21",
+            "default": true
+        }
+    ]
+}

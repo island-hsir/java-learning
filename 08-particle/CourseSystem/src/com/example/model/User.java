@@ -1,4 +1,4 @@
-package CourseSystem.src.com.example.model;
+package com.example.model;
 
 public abstract class User{
     private String name;

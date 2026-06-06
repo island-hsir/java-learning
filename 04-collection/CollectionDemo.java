@@ -2,16 +2,27 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Set;
 
 public class CollectionDemo {
     public static void main(String[] args) {
-        // ArrayList 动态数组
-        ArrayList<String> list = new ArrayList<>(Arrays.asList("huzhengkang", "jiangsjiao"));
-        list.add("panliyue");
-        System.out.println(list);
-        list.remove("panliyue");
-        list.set(1, "dashuaige");
-        System.out.println(list);
+        //SET:an unodered collection that does allow duplicate elements.
+        Set<String> set = new HashSet<>();
+        //C
+        set.add("set1");
+        set.add("set2");
+        set.add("Banana");
+        //D
+        set.remove("set2");
+        //R
+        boolean hasBanana = set.contains("Banana");//Determin whether "banana" is in the set;/CHECK if "banana" in the set;
+        System.out.println(hasBanana);
+        for(String s : set){
+            System.out.println(s);
+
+        }
+
+        System.out.println(set);
 
         // HashMap 键值对
         HashMap<String, Integer> scores = new HashMap<>();

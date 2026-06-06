@@ -1,6 +1,6 @@
-package CourseSystem.src.com.example.model;
+package com.example.model;
 import java.util.HashSet;
-import CourseSystem.src.com.example.exception.*;
+import com.example.exception.*;
 
 
 public class Student extends User {

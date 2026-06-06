@@ -1,4 +1,4 @@
-package CourseSystem.src.com.example.model;
+package com.example.model;
 //课程类
 public class Course{
     private String courseName;

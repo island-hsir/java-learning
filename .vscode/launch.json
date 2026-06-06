@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CollectionDemo",
+            "request": "launch",
+            "mainClass": "CollectionDemo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "ArrayDemo",
+            "request": "launch",
+            "mainClass": "ArrayDemo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "com.example.main.main",
+            "projectName": "CourseSystem",
+            "classPaths": [
+                "${workspaceFolder}/08-particle/CourseSystem/lib/ojdbc11.jar",
+                "${workspaceFolder}/08-particle/bin"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "InsertTest",
+            "request": "launch",
+            "mainClass": "com.example.service.InsertTest",
+            "projectName": "CourseSystem"
+        },
+        {
+            "type": "java",
+            "name": "DBtest",
+            "request": "launch",
+            "mainClass": "com.example.service.DBtest",
+            "projectName": "CourseSystem",
+            "classPaths": [
+                "${workspaceFolder}/08-particle/CourseSystem/lib/ojdbc11.jar",
+                "${workspaceFolder}/08-particle/bin"
+            ]
+        }
+    ]
+}

@@ -1,7 +1,7 @@
-package CourseSystem.src.com.example.main;
+package com.example.main;
 import java.util.ArrayList;
-import CourseSystem.src.com.example.model.Course;
-import CourseSystem.src.com.example.service.*;
+import com.example.model.Course;
+import com.example.service.*;
 
 public class JavaCourse extends Course implements Reviewable{
     private ArrayList<String> reviews = new ArrayList<>();

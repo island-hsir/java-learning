@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run DBtest",
+            "request": "launch",
+            "mainClass": "com.example.service.DBtest",
+            "classPaths": [
+                "${workspaceFolder}/08-particle/CourseSystem/lib/ojdbc11.jar",
+                "${workspaceFolder}/08-particle/bin"
+            ]
+        }
+    ]
+}

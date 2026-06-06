@@ -1,4 +1,4 @@
-package CourseSystem.src.com.example.service;
+package com.example.service;
 
 public interface Reviewable{
     //抽象方法

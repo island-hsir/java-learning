@@ -1,3 +1,10 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "08-particle/CourseSystem/src"
+    ],
+    "java.project.referencedLibraries": [
+        "08-particle/CourseSystem/lib/ojdbc11.jar"
+    ],
+    "java.project.outputPath": "08-particle/bin"
 }

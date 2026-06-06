@@ -1,4 +1,4 @@
-package CourseSystem.src.com.example.exception;
+package com.example.exception;
 
 public class DuplicateCourseException extends Exception{
     public DuplicateCourseException(String msg){

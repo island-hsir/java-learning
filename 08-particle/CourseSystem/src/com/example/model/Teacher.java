@@ -1,4 +1,4 @@
-package CourseSystem.src.com.example.model;
+package com.example.model;
 
 public class Teacher extends User{
     public Teacher(String name,String TeacherId){
