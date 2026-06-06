@@ -41,7 +41,7 @@ public class Student extends User {
         }
     }
 
-    //计算总学分
+    //计算总学分  测试
     public int getTotalCredit(){
         int total = 0;
         for(Course c : selectedCourses){
@@ -49,5 +49,5 @@ public class Student extends User {
         }
         return total;
     }
-    
+    //66666666
 }
